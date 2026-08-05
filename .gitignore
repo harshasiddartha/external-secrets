@@ -15,7 +15,6 @@ go.work.sum
 *.swp
 
 # ignore ide files (debug config etc...)
-/.vscode
 /.idea
 
 # helm chart dependencies
@@ -86,3 +85,7 @@ tests/crds/*.yml
 .env.test.local
 .env.production.local
 .envrc
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
